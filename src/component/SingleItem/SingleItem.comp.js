@@ -1,4 +1,4 @@
-import { MoreVert } from '@mui/icons-material';
+import { DoorFront, MoreVert } from '@mui/icons-material';
 import {
   Card,
   CardContent,
@@ -14,6 +14,7 @@ const SingleItemComponent = ({
   name,
   image_url,
   location,
+  is_closed,
   handleOnClick,
 }) => {
   return (
@@ -21,10 +22,8 @@ const SingleItemComponent = ({
       <CardHeader
         sx={{ textAlign: 'left' }}
         action={
-          <Tooltip title='More Options'>
-            <IconButton>
-              <MoreVert />
-            </IconButton>
+          <Tooltip title={is_closed ? 'Closed' : 'Open'}>
+            <DoorFront sx={{ color: is_closed ? 'red' : 'green' }} />
           </Tooltip>
         }
         title={name}
