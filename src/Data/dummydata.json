@@ -1,0 +1,927 @@
+{
+    "businesses": [
+        {
+            "id": "v21jReWx5dd5KuQ0QS6Dog",
+            "alias": "screamn-nuts-alpharetta",
+            "name": "Scream'n Nuts",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/d-Vb9kn1nCJbn1RPHVXY-w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/screamn-nuts-alpharetta?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 434,
+            "categories": [
+                {
+                    "alias": "donuts",
+                    "title": "Donuts"
+                },
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                },
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 34.04965,
+                "longitude": -84.28216
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "5950 North Point Pkwy",
+                "address2": "",
+                "address3": null,
+                "city": "Alpharetta",
+                "zip_code": "30022",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "5950 North Point Pkwy",
+                    "Alpharetta, GA 30022"
+                ]
+            },
+            "phone": "+14044744766",
+            "display_phone": "(404) 474-4766",
+            "distance": 2282.1023501713494
+        },
+        {
+            "id": "0RDGOFcgDhzry4MDopu0-A",
+            "alias": "jenis-splendid-ice-creams-alpharetta-2",
+            "name": "Jeni's Splendid Ice Creams",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/g4swssZEtx3bCD_HvozQ2Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/jenis-splendid-ice-creams-alpharetta-2?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 222,
+            "categories": [
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 34.070811,
+                "longitude": -84.273856
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "800 Avalon Blvd",
+                "address2": null,
+                "address3": "",
+                "city": "Alpharetta",
+                "zip_code": "30009",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "800 Avalon Blvd",
+                    "Alpharetta, GA 30009"
+                ]
+            },
+            "phone": "+16788941483",
+            "display_phone": "(678) 894-1483",
+            "distance": 601.5391421701563
+        },
+        {
+            "id": "Tos9i8fU_Ggbug963lgSLA",
+            "alias": "popbar-alpharetta-alpharetta",
+            "name": "Popbar Alpharetta",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/qvh9U9Tsn-66aiqpmWkRHA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/popbar-alpharetta-alpharetta?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 74,
+            "categories": [
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 34.11077,
+                "longitude": -84.2224577
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "6710 Town Square",
+                "address2": "Ste 130",
+                "address3": null,
+                "city": "Alpharetta",
+                "zip_code": "30005",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "6710 Town Square",
+                    "Ste 130",
+                    "Alpharetta, GA 30005"
+                ]
+            },
+            "phone": "+14702942910",
+            "display_phone": "(470) 294-2910",
+            "distance": 7013.525981568739
+        },
+        {
+            "id": "3Zm9ysPzn2G0597BRmFsQQ",
+            "alias": "crumbl-cookies-alpharetta-alpharetta",
+            "name": "Crumbl Cookies - Alpharetta",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/w5IIjjixD70Ej2YJ0C1HOQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/crumbl-cookies-alpharetta-alpharetta?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 117,
+            "categories": [
+                {
+                    "alias": "bakeries",
+                    "title": "Bakeries"
+                },
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                },
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 34.059209,
+                "longitude": -84.233868
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "location": {
+                "address1": "4190 Old Milton Pkwy",
+                "address2": "Ste 2L",
+                "address3": null,
+                "city": "Alpharetta",
+                "zip_code": "30005",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "4190 Old Milton Pkwy",
+                    "Ste 2L",
+                    "Alpharetta, GA 30005"
+                ]
+            },
+            "phone": "+14702819209",
+            "display_phone": "(470) 281-9209",
+            "distance": 4427.693950606613
+        },
+        {
+            "id": "oDTdXsjMJ-Xzs-rsn96_4Q",
+            "alias": "four-fat-cows-alpharetta",
+            "name": "Four Fat Cows",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/nMmB_PRNR80lsnwK-MaCGw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/four-fat-cows-alpharetta?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 118,
+            "categories": [
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 34.0772361,
+                "longitude": -84.29463
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "64 N Main St",
+                "address2": "",
+                "address3": "",
+                "city": "Alpharetta",
+                "zip_code": "30009",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "64 N Main St",
+                    "Alpharetta, GA 30009"
+                ]
+            },
+            "phone": "+14702685268",
+            "display_phone": "(470) 268-5268",
+            "distance": 1584.6283047712536
+        },
+        {
+            "id": "KoYwtf4EvdBmq9gAAjTxTQ",
+            "alias": "kilwins-alpharetta-city-center-alpharetta",
+            "name": "Kilwins- Alpharetta City Center",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/3fGg6Q8HBV5Otty4H6QSqw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/kilwins-alpharetta-city-center-alpharetta?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 54,
+            "categories": [
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                },
+                {
+                    "alias": "chocolate",
+                    "title": "Chocolatiers & Shops"
+                },
+                {
+                    "alias": "candy",
+                    "title": "Candy Stores"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 34.0748048353521,
+                "longitude": -84.2935262621729
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "location": {
+                "address1": "251 Market St",
+                "address2": "",
+                "address3": null,
+                "city": "Alpharetta",
+                "zip_code": "30009",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "251 Market St",
+                    "Alpharetta, GA 30009"
+                ]
+            },
+            "phone": "+14702684328",
+            "display_phone": "(470) 268-4328",
+            "distance": 1349.5946462224622
+        },
+        {
+            "id": "8cePaxBvWKAtrZ81YI-PIA",
+            "alias": "wheres-the-scoop-alpharetta-2",
+            "name": "Where's The Scoop",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/-VhEQcUoxUW-WWzVZ7TJ6w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/wheres-the-scoop-alpharetta-2?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 36,
+            "categories": [
+                {
+                    "alias": "bubbletea",
+                    "title": "Bubble Tea"
+                },
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 34.0750075,
+                "longitude": -84.2950824
+            },
+            "transactions": [],
+            "location": {
+                "address1": "26 Old Roswell St",
+                "address2": "Ste 102",
+                "address3": null,
+                "city": "Alpharetta",
+                "zip_code": "30009",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "26 Old Roswell St",
+                    "Ste 102",
+                    "Alpharetta, GA 30009"
+                ]
+            },
+            "phone": "+17705586503",
+            "display_phone": "(770) 558-6503",
+            "distance": 1502.2094164502605
+        },
+        {
+            "id": "s1mE82VEw5GqONY8cdZ_dA",
+            "alias": "boba-mocha-duluth",
+            "name": "Boba Mocha",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/TswqGx1iOOJTL83QV0lsuQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/boba-mocha-duluth?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 576,
+            "categories": [
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "bubbletea",
+                    "title": "Bubble Tea"
+                },
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 33.9711708777899,
+                "longitude": -84.1478902172178
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2628 Pleasant Hill Rd",
+                "address2": "Ste 100",
+                "address3": "",
+                "city": "Duluth",
+                "zip_code": "30096",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "2628 Pleasant Hill Rd",
+                    "Ste 100",
+                    "Duluth, GA 30096"
+                ]
+            },
+            "phone": "+16783673757",
+            "display_phone": "(678) 367-3757",
+            "distance": 16394.449923570268
+        },
+        {
+            "id": "d3Qx-YXhmkfkZr_x7FKdmw",
+            "alias": "j-christophers-alpharetta-4",
+            "name": "J.Christophers",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Ss6sA4z16mM_Ve9kVWVdQQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/j-christophers-alpharetta-4?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 98,
+            "categories": [
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "chocolate",
+                    "title": "Chocolatiers & Shops"
+                },
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                }
+            ],
+            "rating": 3.0,
+            "coordinates": {
+                "latitude": 34.093346,
+                "longitude": -84.241277
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "3070 Windward Plz",
+                "address2": "",
+                "address3": "",
+                "city": "Alpharetta",
+                "zip_code": "30005",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "3070 Windward Plz",
+                    "Alpharetta, GA 30005"
+                ]
+            },
+            "phone": "+17707408571",
+            "display_phone": "(770) 740-8571",
+            "distance": 4449.949527160318
+        },
+        {
+            "id": "busZqvXX73idGQMLagMtpQ",
+            "alias": "mr-tinos-ice-cream-roswell",
+            "name": "Mr Tinos Ice Cream",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/3xRktOspYQqbiGGXBuvByg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mr-tinos-ice-cream-roswell?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 45,
+            "categories": [
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 34.031355,
+                "longitude": -84.341339
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1255 Grimes Bridge Rd",
+                "address2": "Ste E",
+                "address3": "",
+                "city": "Roswell",
+                "zip_code": "30075",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "1255 Grimes Bridge Rd",
+                    "Ste E",
+                    "Roswell, GA 30075"
+                ]
+            },
+            "phone": "+14045036233",
+            "display_phone": "(404) 503-6233",
+            "distance": 7063.812540049461
+        },
+        {
+            "id": "g_uZL_6-mV5WWq2-3b_Q3w",
+            "alias": "kilwins-halcyon-alpharetta-2",
+            "name": "Kilwins -Halcyon",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Asatv7hupiHApfKBTcgfqg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/kilwins-halcyon-alpharetta-2?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 16,
+            "categories": [
+                {
+                    "alias": "chocolate",
+                    "title": "Chocolatiers & Shops"
+                },
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                },
+                {
+                    "alias": "giftshops",
+                    "title": "Gift Shops"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 34.11072166272919,
+                "longitude": -84.22374960677813
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "location": {
+                "address1": "6330 Halcyon Way",
+                "address2": "Ste 710",
+                "address3": "",
+                "city": "Alpharetta",
+                "zip_code": "30005",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "6330 Halcyon Way",
+                    "Ste 710",
+                    "Alpharetta, GA 30005"
+                ]
+            },
+            "phone": "+17706769637",
+            "display_phone": "(770) 676-9637",
+            "distance": 6920.153321212991
+        },
+        {
+            "id": "4UyWFTTTlkLvZ99aw-x1NQ",
+            "alias": "menchies-frozen-yogurt-alpharetta-2",
+            "name": "Menchie's Frozen Yogurt",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/HlnsqPwOkAvXA1Gxvqpjiw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/menchies-frozen-yogurt-alpharetta-2?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 34,
+            "categories": [
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                },
+                {
+                    "alias": "customcakes",
+                    "title": "Custom Cakes"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 34.09594667806237,
+                "longitude": -84.27839865889563
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "12850 Hwy 9 N",
+                "address2": "Ste 700",
+                "address3": "",
+                "city": "Alpharetta",
+                "zip_code": "30004",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "12850 Hwy 9 N",
+                    "Ste 700",
+                    "Alpharetta, GA 30004"
+                ]
+            },
+            "phone": "+16782970107",
+            "display_phone": "(678) 297-0107",
+            "distance": 2925.4528651822948
+        },
+        {
+            "id": "l86yeXrJC11Gj5IGVFNuNQ",
+            "alias": "shake-shack-alpharetta",
+            "name": "Shake Shack Alpharetta",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/vjIKKT4LQ58GXTQy1RgU3Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/shake-shack-alpharetta?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 63,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 34.070191340572684,
+                "longitude": -84.29425480015729
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "11780 Haynes Bridge Rd",
+                "address2": "",
+                "address3": null,
+                "city": "Alpharetta",
+                "zip_code": "30009",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "11780 Haynes Bridge Rd",
+                    "Alpharetta, GA 30009"
+                ]
+            },
+            "phone": "+17704500950",
+            "display_phone": "(770) 450-0950",
+            "distance": 1291.8591886498764
+        },
+        {
+            "id": "D9zjp5ENutChZtAl7c2SuQ",
+            "alias": "sweet-charlies-roswell",
+            "name": "Sweet Charlie's",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/bSzSbY0bSSMkLhX7qc7iwg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sweet-charlies-roswell?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 41,
+            "categories": [
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 34.039067,
+                "longitude": -84.345456809894
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "location": {
+                "address1": "580 E Crossville Rd",
+                "address2": "Ste 300",
+                "address3": "",
+                "city": "Roswell",
+                "zip_code": "30075",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "580 E Crossville Rd",
+                    "Ste 300",
+                    "Roswell, GA 30075"
+                ]
+            },
+            "phone": "+16783733646",
+            "display_phone": "(678) 373-3646",
+            "distance": 6905.29651963655
+        },
+        {
+            "id": "KPwCwuyKWp8oyQrKo0-Uyw",
+            "alias": "daddy-o-briens-irish-ice-cream-pub-sugar-hill-3",
+            "name": "Daddy O'Brien's Irish Ice Cream Pub",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/6TbQNjHNVn8q4GGGr7XXbA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/daddy-o-briens-irish-ice-cream-pub-sugar-hill-3?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 232,
+            "categories": [
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                },
+                {
+                    "alias": "irish_pubs",
+                    "title": "Irish Pub"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 34.12043924560851,
+                "longitude": -84.07645387509024
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "5910 Suwanee Dam Rd",
+                "address2": "Ste 400",
+                "address3": null,
+                "city": "Sugar Hill",
+                "zip_code": "30518",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "5910 Suwanee Dam Rd",
+                    "Ste 400",
+                    "Sugar Hill, GA 30518"
+                ]
+            },
+            "phone": "+16787659633",
+            "display_phone": "(678) 765-9633",
+            "distance": 19595.56102374519
+        },
+        {
+            "id": "MLCxQErWS-NUTXNo4Z8hIw",
+            "alias": "scoopjoy-ice-creamery-suwanee",
+            "name": "Scoopjoy Ice Creamery",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/nQ8OHjYTAGR9sppk1PwYow/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/scoopjoy-ice-creamery-suwanee?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 36,
+            "categories": [
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 34.092311508588246,
+                "longitude": -84.16988199202424
+            },
+            "transactions": [],
+            "location": {
+                "address1": "2780 W Village Dr",
+                "address2": "Ste C",
+                "address3": null,
+                "city": "Suwanee",
+                "zip_code": "30024",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "2780 W Village Dr",
+                    "Ste C",
+                    "Suwanee, GA 30024"
+                ]
+            },
+            "phone": "+14702975977",
+            "display_phone": "(470) 297-5977",
+            "distance": 10470.727497878279
+        },
+        {
+            "id": "BU5cTO8XscZPPCLeNBxz_w",
+            "alias": "the-chocolaterie-luxury-chocolates-duluth",
+            "name": "The Chocolaterie Luxury Chocolates",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/IDezqy1AOcKVoQsL-o5ZiA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-chocolaterie-luxury-chocolates-duluth?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 126,
+            "categories": [
+                {
+                    "alias": "chocolate",
+                    "title": "Chocolatiers & Shops"
+                },
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                },
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 34.0030262456993,
+                "longitude": -84.1445236693115
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "3099 Main St",
+                "address2": "",
+                "address3": "",
+                "city": "Duluth",
+                "zip_code": "30096",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "3099 Main St",
+                    "Duluth, GA 30096"
+                ]
+            },
+            "phone": "+16785853338",
+            "display_phone": "(678) 585-3338",
+            "distance": 14537.22653618627
+        },
+        {
+            "id": "pwPauEaRK8-D5fNJvYr_Ew",
+            "alias": "brusters-real-ice-cream-alpharetta-3",
+            "name": "Bruster's Real Ice Cream",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/qwn9mz7PSuW0UpVZfDQGAw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/brusters-real-ice-cream-alpharetta-3?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 41,
+            "categories": [
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                },
+                {
+                    "alias": "juicebars",
+                    "title": "Juice Bars & Smoothies"
+                },
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                }
+            ],
+            "rating": 3.0,
+            "coordinates": {
+                "latitude": 34.061915,
+                "longitude": -84.247405
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "3855 Old Milton Pkwy",
+                "address2": null,
+                "address3": "",
+                "city": "Alpharetta",
+                "zip_code": "30005",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "3855 Old Milton Pkwy",
+                    "Alpharetta, GA 30005"
+                ]
+            },
+            "phone": "+17702743669",
+            "display_phone": "(770) 274-3669",
+            "distance": 3145.680139558727
+        },
+        {
+            "id": "kLiW45O-YRMSezLZa0q6-A",
+            "alias": "brusters-real-ice-cream-alpharetta-2",
+            "name": "Bruster's Real Ice Cream",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/LYUi-VJcE533sE7HhfJ4OQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/brusters-real-ice-cream-alpharetta-2?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 28,
+            "categories": [
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                },
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 34.022145,
+                "longitude": -84.272672
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "3000 Old Alabama Rd",
+                "address2": "Ste 100",
+                "address3": "",
+                "city": "Alpharetta",
+                "zip_code": "30022",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "3000 Old Alabama Rd",
+                    "Ste 100",
+                    "Alpharetta, GA 30022"
+                ]
+            },
+            "phone": "+16782050747",
+            "display_phone": "(678) 205-0747",
+            "distance": 5331.671913634543
+        },
+        {
+            "id": "_NaU9ojgdwbYgGnk1HhxUA",
+            "alias": "cold-stone-creamery-alpharetta-6",
+            "name": "Cold Stone Creamery",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/sV6HyYHlHOvID1CvAwYSrw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cold-stone-creamery-alpharetta-6?adjust_creative=TDzVShywUlKzQst22OoP0w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TDzVShywUlKzQst22OoP0w",
+            "review_count": 28,
+            "categories": [
+                {
+                    "alias": "icecream",
+                    "title": "Ice Cream & Frozen Yogurt"
+                },
+                {
+                    "alias": "customcakes",
+                    "title": "Custom Cakes"
+                },
+                {
+                    "alias": "cupcakes",
+                    "title": "Cupcakes"
+                }
+            ],
+            "rating": 3.0,
+            "coordinates": {
+                "latitude": 34.09311409120008,
+                "longitude": -84.27962067274444
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "875 N Main St",
+                "address2": "Ste 303",
+                "address3": "",
+                "city": "Alpharetta",
+                "zip_code": "30009",
+                "country": "US",
+                "state": "GA",
+                "display_address": [
+                    "875 N Main St",
+                    "Ste 303",
+                    "Alpharetta, GA 30009"
+                ]
+            },
+            "phone": "+17707772183",
+            "display_phone": "(770) 777-2183",
+            "distance": 2606.1793911896452
+        }
+    ],
+    "total": 122,
+    "region": {
+        "center": {
+            "longitude": -84.28024291992188,
+            "latitude": 34.06968179772272
+        }
+    }
+}
