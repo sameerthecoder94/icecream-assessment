@@ -1,13 +1,14 @@
 import axios from 'axios';
 import config from './config';
 
-const url = config.baseURL;
+const url = config.cors + config.baseURL;
 
 const axiosBase = axios.create({
   baseURL: url,
   headers: {
     Authorization: 'Bearer ' + config.bearerAuthroizaion,
     'Access-Control-Allow-Origin': '*',
+    'Content-Type': 'application/json',
   },
 });
 

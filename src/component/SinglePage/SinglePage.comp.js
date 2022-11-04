@@ -5,10 +5,32 @@ import {
   StarBorderOutlined,
   StarBorderRounded,
 } from '@mui/icons-material';
-import { Chip, Tooltip, Typography } from '@mui/material';
-import React from 'react';
+import { Avatar, Chip, Tooltip, Typography } from '@mui/material';
+import React, { useState, useEffect } from 'react';
+import axiosBase from '../../axiosBase';
+import dummyData from '../../Data/reviewData.json';
 
 const SinglePage = ({ data, onClose }) => {
+  const [review, setReview] = useState(null);
+
+  const fetchReview = async () => {
+    try {
+      const res = await axiosBase.get(`businesses/${data.id}/reviews`);
+      setReview([...res.data.reviews]);
+    } catch (e) {
+      setReview([...dummyData.reviews]);
+    }
+  };
+
+  useEffect(() => fetchReview, []);
+
+  const reviewNumberStars = (number) => {
+    let stars;
+    for (let i = 1; i <= 5; i++) {
+      stars += <StarBorderRounded fontSize='1rem' />;
+    }
+    return stars;
+  };
   return (
     <Container>
       <ImageContainer>
@@ -42,6 +64,18 @@ const SinglePage = ({ data, onClose }) => {
             ))}
           </div>
         </CategoriesContainer>
+        <h4>Reviews</h4>
+        <ReviewContainer>
+          {review?.map((r, index) => (
+            <Review key={index}>
+              <Avatar src={r.user.image_url} />
+              <ContentReview>
+                <h5>{r.rating} Rating</h5>
+                <p>{r.text}</p>
+              </ContentReview>
+            </Review>
+          ))}
+        </ReviewContainer>
         <Contact>
           <ContactItem>
             <PhoneAndroid />
@@ -53,6 +87,21 @@ const SinglePage = ({ data, onClose }) => {
   );
 };
 
+const ReviewContainer = styled.div`
+  max-height: 500px;
+  overflow-y: auto;
+`;
+
+const Review = styled.div`
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+`;
+
+const ContentReview = styled.div`
+  width: 300px;
+`;
 const ContactItem = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -114,11 +163,11 @@ const Container = styled.div`
   flex-wrap: wrap;
   border-radius: 5px;
   gap: 2rem;
-  width: 80%;
+  width: 90vw;
   align-items: center;
   border-radius: 5px;
   & > div {
-    min-width: 400px;
+    min-width: 300px;
   }
 `;
 const ContentContainer = styled.div``;

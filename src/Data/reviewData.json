@@ -1,0 +1,47 @@
+{
+    "reviews": [
+        {
+            "id": "TGWI2J-0k9K3CKcoyKYGMA",
+            "url": "https://www.yelp.com/biz/jerusalem-bakery-and-grill-alpharetta-2?adjust_creative=TDzVShywUlKzQst22OoP0w&hrid=TGWI2J-0k9K3CKcoyKYGMA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=TDzVShywUlKzQst22OoP0w",
+            "text": "The moment the take-outs picked up smelled inside the car makes you salivate like a Pavlosvs' dog.\n\nThe best \"homemade\" hummus ever had - I seldom enjoy any...",
+            "rating": 5,
+            "time_created": "2022-08-08 14:39:56",
+            "user": {
+                "id": "9wujoXkiGRkRb9qlmm_pwQ",
+                "profile_url": "https://www.yelp.com/user_details?userid=9wujoXkiGRkRb9qlmm_pwQ",
+                "image_url": "https://s3-media3.fl.yelpcdn.com/photo/Ea4MgeBX_-yaUxilNb-ZTg/o.jpg",
+                "name": "Ryan C."
+            }
+        },
+        {
+            "id": "x64sUyVzmKWVrGjWPIeOvg",
+            "url": "https://www.yelp.com/biz/jerusalem-bakery-and-grill-alpharetta-2?adjust_creative=TDzVShywUlKzQst22OoP0w&hrid=x64sUyVzmKWVrGjWPIeOvg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=TDzVShywUlKzQst22OoP0w",
+            "text": "First time eating food from this region. My palette was pleasantly surprised. I am not sure what I ate but I can't wait to return for more!\n\nService was...",
+            "rating": 4,
+            "time_created": "2022-08-11 17:29:18",
+            "user": {
+                "id": "NrUHAingEM5KB2kVl_p6Aw",
+                "profile_url": "https://www.yelp.com/user_details?userid=NrUHAingEM5KB2kVl_p6Aw",
+                "image_url": "https://s3-media1.fl.yelpcdn.com/photo/uKcyOpBPl9cWjS1L7mrkKA/o.jpg",
+                "name": "Erika W."
+            }
+        },
+        {
+            "id": "ZnK3_lZ_jf85aHcXCs8pdg",
+            "url": "https://www.yelp.com/biz/jerusalem-bakery-and-grill-alpharetta-2?adjust_creative=TDzVShywUlKzQst22OoP0w&hrid=ZnK3_lZ_jf85aHcXCs8pdg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=TDzVShywUlKzQst22OoP0w",
+            "text": "Remember a few years back when I did this \"best Philly cheese steaks in Georgia?\" @jerusalembakery in Alpharetta (they have a few different locations) makes...",
+            "rating": 5,
+            "time_created": "2022-04-08 17:39:32",
+            "user": {
+                "id": "FRneNnXMY57UHqjxhgApBQ",
+                "profile_url": "https://www.yelp.com/user_details?userid=FRneNnXMY57UHqjxhgApBQ",
+                "image_url": "https://s3-media1.fl.yelpcdn.com/photo/JT266PGUKrAF2LadHMx_9w/o.jpg",
+                "name": "Raul G."
+            }
+        }
+    ],
+    "total": 603,
+    "possible_languages": [
+        "en"
+    ]
+}

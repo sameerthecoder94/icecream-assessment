@@ -10,7 +10,7 @@ import SinglePage from './component/SinglePage/SinglePage.comp';
 
 function App() {
   const [data, setData] = useState(dummy.businesses);
-  const [modalData, setModalData] = useState(dummy.businesses[0]);
+  const [modalData, setModalData] = useState(null);
 
   const handleOnClick = (data) => {
     setModalData(data);
@@ -18,20 +18,40 @@ function App() {
 
   const closeModalData = () => setModalData(null);
 
+  const fetchAPI = async () => {
+    try {
+      const { data } = await axiosBase.get('/businesses/search', {
+        params: config.defaultParams,
+      });
+      setData([...data.businesses]);
+    } catch (e) {
+      setData({ ...dummy.businesses });
+    }
+  };
+
+  useEffect(() => fetchAPI, []);
+
   return (
     <div className='App'>
-      <PlaceContainer>
-        {data.map((item, index) => (
-          <SingleItemComponent
-            key={index}
-            {...item}
-            handleOnClick={() => handleOnClick(item)}
-          />
-        ))}
-      </PlaceContainer>
-      <Modal open={modalData !== null} onClose={closeModalData}>
-        <SinglePage data={modalData} onClose={closeModalData} />
-      </Modal>
+      <a href={config.cors + '/corsdemo'}>Allow Cors</a>
+      {data ? (
+        <>
+          <PlaceContainer>
+            {data.map((item, index) => (
+              <SingleItemComponent
+                key={index}
+                {...item}
+                handleOnClick={() => handleOnClick(item)}
+              />
+            ))}
+          </PlaceContainer>
+          <Modal open={modalData !== null} onClose={closeModalData}>
+            <SinglePage data={modalData} onClose={closeModalData} />
+          </Modal>
+        </>
+      ) : (
+        <h1>Loading...</h1>
+      )}
     </div>
   );
 }
