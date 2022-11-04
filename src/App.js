@@ -29,6 +29,7 @@ const App = () => {
   };
 
   useEffect(() => fetchAPI, []);
+  console.log(data);
 
   return (
     <div>

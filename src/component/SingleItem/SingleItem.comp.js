@@ -1,16 +1,8 @@
-import { DoorFront, MoreVert } from '@mui/icons-material';
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardMedia,
-  IconButton,
-  Tooltip,
-} from '@mui/material';
+import { DoorFront } from '@mui/icons-material';
+import { Card, CardHeader, CardMedia, Tooltip } from '@mui/material';
 import React from 'react';
 
 const SingleItemComponent = ({
-  id,
   name,
   image_url,
   location,

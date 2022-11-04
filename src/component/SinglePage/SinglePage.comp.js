@@ -34,7 +34,6 @@ const SinglePage = ({ data, onClose }) => {
           <Typography variant='h4'>{data.name}</Typography>
           <Typography variant='p'>{data.location.display_address}</Typography>
         </Title>
-        <Price>{data.price}</Price>
         <Rating>
           <StarBorderRounded fontSize='1rem' />
           {data.rating}
@@ -58,6 +57,7 @@ const SinglePage = ({ data, onClose }) => {
             <Review key={index}>
               <Avatar src={r.user.image_url} />
               <ContentReview>
+                <h5>{r.user.name}</h5>
                 <h5>{r.rating} Rating</h5>
                 <p>{r.text}</p>
               </ContentReview>
@@ -85,11 +85,13 @@ const Review = styled.div`
   display: flex;
   align-items: center;
   gap: 2rem;
+  border-bottom: 1px solid #ccc;
 `;
 
 const ContentReview = styled.div`
   width: 300px;
 `;
+
 const ContactItem = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -117,15 +119,13 @@ const TransactionContainer = styled.div`
   display: flex;
   gap: 1rem;
 `;
+
 const Rating = styled.h1`
   display: flex;
   font-weight: bold;
   align-items: center;
 `;
 
-const Price = styled.h2`
-  color: 'green';
-`;
 const Title = styled.div`
   display: flex;
   justify-content: center;
@@ -154,8 +154,15 @@ const Container = styled.div`
   width: 90vw;
   align-items: center;
   border-radius: 5px;
+  max-height: 90vh;
+  overflow-y: auto;
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
   & > div {
     min-width: 300px;
+    margin-top: 2rem;
   }
 `;
 const ContentContainer = styled.div``;
