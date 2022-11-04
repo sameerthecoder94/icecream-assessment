@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
 import axiosBase from './axiosBase';
 import SingleItemComponent from './component/SingleItem/SingleItem.comp';
 import config from './config';
-import dummy from './Data/dummydata.json';
+import dummy from './data/dummyData.json';
 import styled from '@emotion/styled';
 import { Modal } from '@mui/material';
 import SinglePage from './component/SinglePage/SinglePage.comp';
 
-function App() {
-  const [data, setData] = useState(dummy.businesses);
+const App = () => {
+  const [data, setData] = useState(null);
   const [modalData, setModalData] = useState(null);
 
   const handleOnClick = (data) => {
@@ -25,14 +24,14 @@ function App() {
       });
       setData([...data.businesses]);
     } catch (e) {
-      setData({ ...dummy.businesses });
+      setData([...dummy.businesses]);
     }
   };
 
   useEffect(() => fetchAPI, []);
 
   return (
-    <div className='App'>
+    <div>
       <a href={config.cors + '/corsdemo'}>Allow Cors</a>
       {data ? (
         <>
@@ -54,7 +53,7 @@ function App() {
       )}
     </div>
   );
-}
+};
 
 const PlaceContainer = styled.div`
   display: flex;

@@ -1,14 +1,9 @@
 import styled from '@emotion/styled';
-import {
-  Close,
-  PhoneAndroid,
-  StarBorderOutlined,
-  StarBorderRounded,
-} from '@mui/icons-material';
+import { Close, PhoneAndroid, StarBorderRounded } from '@mui/icons-material';
 import { Avatar, Chip, Tooltip, Typography } from '@mui/material';
 import React, { useState, useEffect } from 'react';
 import axiosBase from '../../axiosBase';
-import dummyData from '../../Data/reviewData.json';
+import dummyData from '../../data/reviewData.json';
 
 const SinglePage = ({ data, onClose }) => {
   const [review, setReview] = useState(null);
@@ -24,13 +19,6 @@ const SinglePage = ({ data, onClose }) => {
 
   useEffect(() => fetchReview, []);
 
-  const reviewNumberStars = (number) => {
-    let stars;
-    for (let i = 1; i <= 5; i++) {
-      stars += <StarBorderRounded fontSize='1rem' />;
-    }
-    return stars;
-  };
   return (
     <Container>
       <ImageContainer>
